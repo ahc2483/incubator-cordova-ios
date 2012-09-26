@@ -246,7 +246,7 @@ static CFIndex WriteDataToStream(NSData* data, CFWriteStreamRef stream)
 {
     NSString* target = [command.arguments objectAtIndex:0];
     NSString* server = [command.arguments objectAtIndex:1];
-    NSString* objectId = [command.arguments objectAtIndex:9];
+    NSString* objectId = [command.arguments objectAtIndex:2];
 
     CDVFileTransferDelegate* delegate = [[CDVFileTransferDelegate alloc] init];
 
